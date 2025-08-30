@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Order Management</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/OrderManagement.Web.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-primary text-white" id="sidebar-wrapper">
+            <div class="sidebar-heading">Order Management</div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action bg-primary text-white" asp-controller="Home" asp-action="Index"><i class="fas fa-home me-2"></i>Home</a>
+                <a class="list-group-item list-group-item-action bg-primary text-white" asp-controller="Orders" asp-action="Index"><i class="fas fa-shopping-cart me-2"></i>Orders</a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a class="list-group-item list-group-item-action bg-primary text-white" asp-controller="Orders" asp-action="Create"><i class="fas fa-plus me-2"></i>Create Order</a>
+                }
+                <a class="list-group-item list-group-item-action bg-primary text-white" asp-controller="Home" asp-action="Privacy"><i class="fas fa-lock me-2"></i>Privacy</a>
+            </div>
+        </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom fixed-top">
+                <div class="container-fluid">
+                    <button class="btn btn-primary me-2" id="menu-toggle"><i class="fas fa-bars"></i></button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <button class="btn btn-outline-secondary me-2" id="darkModeToggle"><i class="fas fa-moon"></i> Toggle Theme</button>
+                            </li>
+                            @if (User.Identity?.IsAuthenticated ?? false)
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Hello, @User.Identity.Name
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                        <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">Profile</a></li>
+                                        <li>
+                                            <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post">
+                                                <button type="submit" class="dropdown-item">Logout</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item"><a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a></li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid p-4">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-muted">
+        <div class="container">
+            &copy; 2025 - Order Management - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        $("#darkModeToggle").click(function() {
+            var theme = document.documentElement.getAttribute("data-bs-theme") === "dark" ? "light" : "dark";
+            document.documentElement.setAttribute("data-bs-theme", theme);
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

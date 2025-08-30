@@ -1,0 +1,30 @@
+﻿@model OrderManagement.Web.ViewModels.OrderItemViewModel
+@{
+    int index = (int)ViewData["Index"]!;
+}
+
+<tr>
+    <td>
+        <input asp-for="ProductName" name="OrderItems[@index].ProductName" class="form-control" placeholder="Product Name" />
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </td>
+    <td>
+        <input asp-for="Quantity" name="OrderItems[@index].Quantity" class="form-control" placeholder="Quantity" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </td>
+    <td>
+        <input asp-for="Price" name="OrderItems[@index].Price" class="form-control" placeholder="Price" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </td>
+    <td>
+        <input asp-for="ImageFile" type="file" name="OrderItems[@index].ImageFile" class="form-control" accept="image/*" />
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath" alt="Product Image" class="img-thumbnail mt-2" style="max-width: 100px;" />
+        }
+        <input type="hidden" asp-for="ImagePath" name="OrderItems[@index].ImagePath" />
+    </td>
+    <td>
+        <button type="button" class="btn btn-danger remove"><i class="fas fa-trash"></i></button>
+    </td>
+</tr>

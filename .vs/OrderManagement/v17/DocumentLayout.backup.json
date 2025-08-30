@@ -1,0 +1,578 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\components\\ordersummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\components\\ordersummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\shared\\components\\ordersummary\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\shared\\components\\ordersummary\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\viewmodels\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\viewmodels\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\bin\\debug\\net9.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\bin\\debug\\net9.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\ordermanagement.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\ordermanagement.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\orders\\_orderitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\orders\\_orderitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.infrastructure\\migrations\\20250819062459_addispaidtoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|solutionrelative:ordermanagement.infrastructure\\migrations\\20250819062459_addispaidtoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|solutionrelative:ordermanagement.core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.infrastructure\\ordermanagement.infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|solutionrelative:ordermanagement.infrastructure\\ordermanagement.infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.infrastructure\\migrations\\20250819045104_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|solutionrelative:ordermanagement.infrastructure\\migrations\\20250819045104_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.core\\ordermanagement.core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|solutionrelative:ordermanagement.core\\ordermanagement.core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\ordermanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\ordermanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.infrastructure\\ordermanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|solutionrelative:ordermanagement.infrastructure\\ordermanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8CC241D3-3F2B-48CF-8944-7E5290FFF292}|OrderManagement.Web\\OrderManagement.Web.csproj|solutionrelative:ordermanagement.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|solutionrelative:ordermanagement.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|solutionrelative:ordermanagement.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.core\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|solutionrelative:ordermanagement.core\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.core\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|solutionrelative:ordermanagement.core\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A3EE5A-B389-4802-95A6-B1C04BDB4767}|OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj|solutionrelative:ordermanagement.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|c:\\users\\user\\desktop\\project_update\\ordermanagement\\ordermanagement.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083B3D6E-0649-40A2-A81B-F94C25734810}|OrderManagement.Core\\OrderManagement.Core.csproj|solutionrelative:ordermanagement.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\ViewModels\\OrderItemViewModel.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\ViewModels\\OrderItemViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\ViewModels\\OrderItemViewModel.cs",
+              "RelativeToolTip": "OrderManagement.Web\\ViewModels\\OrderItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:41:59.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "OrderManagement.Web\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T04:01:20.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderSummaryViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Components\\OrderSummaryViewComponent.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Components\\OrderSummaryViewComponent.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Components\\OrderSummaryViewComponent.cs",
+              "RelativeToolTip": "OrderManagement.Web\\Components\\OrderSummaryViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T04:08:58.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Shared\\Components\\OrderSummary\\Default.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Shared\\Components\\OrderSummary\\Default.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Shared\\Components\\OrderSummary\\Default.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Shared\\Components\\OrderSummary\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:10:53.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:07:22.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\ViewModels\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\ViewModels\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\ViewModels\\OrderViewModel.cs",
+              "RelativeToolTip": "OrderManagement.Web\\ViewModels\\OrderViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:41:45.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAALQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T07:02:27.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OrderManagement.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T05:00:32.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:15:21.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAYwHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:06:54.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "OrderManagement.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAOYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-19T07:17:18.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T07:52:58.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\bin\\Debug\\net9.0\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\bin\\Debug\\net9.0\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\bin\\Debug\\net9.0\\appsettings.json",
+              "RelativeToolTip": "OrderManagement.Web\\bin\\Debug\\net9.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T03:06:47.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Program.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Program.cs",
+              "RelativeToolTip": "OrderManagement.Web\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T04:18:19.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderManagement.Web",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\OrderManagement.Web.csproj",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\OrderManagement.Web.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\OrderManagement.Web.csproj",
+              "RelativeToolTip": "OrderManagement.Web\\OrderManagement.Web.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T04:38:26.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T07:53:22.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_OrderItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\_OrderItem.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Orders\\_OrderItem.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\_OrderItem.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Orders\\_OrderItem.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:08:20.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwFsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:20:26.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Core\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\Entities\\Order.cs",
+              "RelativeToolTip": "OrderManagement.Core\\Entities\\Order.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA2wBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:33:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:07:41.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "OrderManagement.Web\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:08:00.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250819062459_AddIsPaidToOrder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Migrations\\20250819062459_AddIsPaidToOrder.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Infrastructure\\Migrations\\20250819062459_AddIsPaidToOrder.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Migrations\\20250819062459_AddIsPaidToOrder.cs",
+              "RelativeToolTip": "OrderManagement.Infrastructure\\Migrations\\20250819062459_AddIsPaidToOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T06:25:01.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderManagement.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+              "RelativeToolTip": "OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T04:37:58.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250819045104_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Migrations\\20250819045104_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Infrastructure\\Migrations\\20250819045104_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Migrations\\20250819045104_InitialCreate.cs",
+              "RelativeToolTip": "OrderManagement.Infrastructure\\Migrations\\20250819045104_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T04:51:05.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderManagement.Core",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
+              "RelativeDocumentMoniker": "OrderManagement.Core\\OrderManagement.Core.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
+              "RelativeToolTip": "OrderManagement.Core\\OrderManagement.Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T04:33:54.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderManagement.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\OrderManagement.Web.csproj",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\OrderManagement.Web.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\OrderManagement.Web.csproj",
+              "RelativeToolTip": "OrderManagement.Web\\OrderManagement.Web.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T04:32:51.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\appsettings.json",
+              "RelativeToolTip": "OrderManagement.Web\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T04:16:51.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderManagement.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+              "RelativeToolTip": "OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T03:35:45.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "OrderManagement.Web\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Web\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "OrderManagement.Web\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-19T04:00:12.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Core\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "OrderManagement.Core\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:34:02.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Core\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "OrderManagement.Core\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:34:34.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "OrderManagement.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:38:15.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "OrderManagement.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:38:50.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "OrderManagement.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:35:13.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project_update\\OrderManagement\\OrderManagement.Core\\Class1.cs",
+              "RelativeToolTip": "OrderManagement.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:32:21.059Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

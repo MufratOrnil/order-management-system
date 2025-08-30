@@ -1,0 +1,10 @@
+﻿@model OrderManagement.Web.ViewModels.OrderViewModel
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Order Summary</h5>
+        <p class="card-text">Customer: @Model.CustomerName</p>
+        <p class="card-text">Total: @ViewBag.Total</p>
+        <p class="card-text">Payment Status: @(ViewBag.IsPaid ? "Paid" : "Pending")</p>
+    </div>
+</div>

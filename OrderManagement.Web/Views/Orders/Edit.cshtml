@@ -1,0 +1,78 @@
+﻿@model OrderManagement.Web.ViewModels.OrderViewModel
+
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h4><i class="fas fa-edit me-2"></i>Edit Order</h4>
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group mb-3">
+                <label asp-for="OrderDate" class="control-label"></label>
+                <input asp-for="OrderDate" class="form-control" placeholder="Order Date" />
+                <span asp-validation-for="OrderDate" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" placeholder="Customer Name" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="IsPaid" class="control-label"></label>
+                <select asp-for="IsPaid" class="form-control">
+                    <option value="false">Pending</option>
+                    <option value="true">Paid</option>
+                </select>
+                <span asp-validation-for="IsPaid" class="text-danger"></span>
+            </div>
+            <h5 class="mt-4">Order Items</h5>
+            <table id="itemsTable" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.OrderItems[0].ProductName)</th>
+                        <th>@Html.DisplayNameFor(model => model.OrderItems[0].Quantity)</th>
+                        <th>@Html.DisplayNameFor(model => model.OrderItems[0].Price)</th>
+                        <th>@Html.DisplayNameFor(model => model.OrderItems[0].ImagePath)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.OrderItems.Count; i++)
+                    {
+                        ViewData["Index"] = i;
+                        @await Html.PartialAsync("_OrderItem", Model.OrderItems[i], ViewData)
+                    }
+                </tbody>
+            </table>
+            <button type="button" id="btnAdd" class="btn btn-outline-primary mb-3"><i class="fas fa-plus me-2"></i>Add Item</button>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left me-2"></i>Back to List</a>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        var index = @Model.OrderItems.Count;
+        $("#btnAdd").click(function () {
+            $.get("/Orders/GetOrderItemRow?index=" + index, function (data) {
+                $("#itemsTable tbody").append(data);
+            });
+            index++;
+        });
+        $(document).on("click", ".remove", function () {
+            $(this).closest("tr").remove();
+        });
+    </script>
+}
