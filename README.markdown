@@ -38,7 +38,7 @@ Follow these steps to set up and run the project locally:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/order-management-system.git
+   git clone https://github.com/MufratOrnil/order-management-system.git
    cd order-management-system
    ```
 
@@ -150,7 +150,3 @@ Contributions are welcome! Please follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-
-For questions or support, contact your-email@example.com or open an issue on GitHub.
